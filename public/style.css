@@ -1,0 +1,31 @@
+/* We can style our JSX elements and components in an style.css file by using the normal css selectors */
+body {
+  margin: 0;
+}
+
+.navbar {
+  height: 100px;
+  background-color: grey;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
