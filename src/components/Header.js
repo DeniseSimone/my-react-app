@@ -1,9 +1,15 @@
 import React from "react"
 
 function Header() {
+  const firstName = "Denise"
+  const lastName = "Simone"
+
   return (
     <header className="navbar">
-      <h1  >This is my navbar</h1>
+      <h1>This is my navbar</h1>
+      <h3>Welcome to my website {firstName + " " + lastName}</h3>
+      {"Our guest's name is " + firstName}
+      {`${firstName}`}
     </header>
   )
 }
