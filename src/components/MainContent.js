@@ -1,14 +1,16 @@
 import React from "react"
 
 function MainContent() {
+  const d = new Date().getDate();
+
+
   return (
     <main>
       <p>This is a paragraph.</p>
       <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
+        <li>Today is {`${d}`} </li>
+        <li>Yesterday was {d.valueOf() - 1}</li>
+        <li>Tomorrow is {d.valueOf() + 1}</li>
       </ul>
     </main>
   );
