@@ -9,10 +9,11 @@ import App from "./App.js"
 // ReactDOM.render(WHAT TO RENDER, WHERE TO RENDER)
 ReactDOM.render(<App />, document.getElementById("root"))
 // We'll render the App component in the html element w/ id="root"
-// the App component is a parent component w/ children component, in index.js we only need to render <App />
+// the App component is a parent component w/ children component, so in index.js we only need to render <App />
 
 
 /* Rendering Scenarios:
+
 FIRST: rendering only one component, this does not need a wrapping container:
   ReactDOM.render(<h1>Hello World<h1>, document.getElementById("root"))
 
