@@ -15,10 +15,12 @@ function App() {
       <Header />
       <MainContent />
       <Something />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
-      <TodoItem />
+      <div className="todo-list">
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+      </div>
       <Footer />
     </div>
   );

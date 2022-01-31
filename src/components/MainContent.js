@@ -18,7 +18,7 @@ function MainContent() {
     document.getElementById("demo").innerHTML = "hello"
   }
 
-  let guest = prompt("What is your name?")
+  // let guest = prompt("What is your name?")
 
   return (
     // start of JSX code
@@ -32,7 +32,7 @@ function MainContent() {
       </ul>
       <button onClick={onClick}>Click me</button>
       <p id="demo"></p>
-      <h1 style={{color: "blue", backgroundColor: "yellow"}}>Our guests name is {guest}</h1>
+      <h1 style={{color: "blue", backgroundColor: "yellow"}}>Our guests name is {/*guest*/} </h1>
     </main>
     // End of JSX code
   );
