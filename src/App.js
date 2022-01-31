@@ -5,7 +5,7 @@ import React from "react"
 import Header from "./components/Header.js"
 import MainContent from "./components/MainContent.js"
 import Footer from "./components/Footer.js"
-import CheckList from "./components/CheckList.js"
+import TodoItem from "./components/TodoItem.js"
 import Something from "./components/Something.js"
 
 // this Functional Component App will render n be a parent component to other components
@@ -14,8 +14,11 @@ function App() {
     <div>
       <Header />
       <MainContent />
-      <CheckList />
       <Something />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
       <Footer />
     </div>
   );
