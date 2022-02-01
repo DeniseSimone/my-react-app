@@ -22,7 +22,7 @@ function MainContent() {
 
   return (
     // start of JSX code
-    // all JS code you want to insert inside JSX code must be inbetween {} curly braces
+    // all JS code you want to insert inside JSX code must be in between {} curly braces
     <main>
       <p>Check the date bellow:</p>
       <ul>

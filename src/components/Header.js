@@ -6,10 +6,9 @@ function Header() {
 
   return (
     <header className="navbar">
-      <h1>This is my navbar</h1>
-      <h3>Welcome to my website {firstName + " " + lastName}</h3>
+      <h1>Welcome to my website {firstName + " " + lastName}</h1>
       {"Our guest's name is " + firstName}
-      {`${firstName}`}
+      {/* `${firstName}` */} 
     </header>
   )
 }
